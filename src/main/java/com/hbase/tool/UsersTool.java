@@ -12,6 +12,12 @@ import java.io.IOException;
 import java.util.List;
 
 /**
+ * 操作示例：
+ * <p>
+ * java -cp target/hbase-in-action-1.0.jar com.hbase.tool.UsersTool add TheRealMT "Mark Twain" samuel@clemens.org abc123
+ * <p>
+ * java -cp target/hbase-in-action-1.0.jar com.hbase.tool.UsersTool list
+ *
  * @author gaochuanjun
  * @since 2016/12/12
  */
